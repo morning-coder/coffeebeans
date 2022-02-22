@@ -1,0 +1,22 @@
+This is classical probability problem which we used to solve in our school time.
+
+Till host has not opened any door, probability of finding dream car is 1/3.
+Now when host has opened a door, showed and it is a GOAT. Now usually we will think it is 50-50
+chance between dream car and Goat (which is the twist in question).
+
+Let's go back to intermediate mathematics probability chapter and try to recall Bayes' theorm:
+Chances of event E1 if independent of E2 - P(E1) which is not similar if E1 and E2 are dependent
+It becomes P(E1/E2). So switching gives us 2/3 probability and staying with the same choice gives us 1/3 probability.
+
+Not covering mathematical proof as considering it out of scope.
+
+
+In code, I have one Driver and service class following Single Responsibility principle.
+Driver class is responsible for only controlling iterations(1000) and printing results.
+Service class is handling the logic internally by generating random door number from {1,2,3}.
+
+
+
+
+
+
