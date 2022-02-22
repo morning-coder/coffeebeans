@@ -15,8 +15,9 @@ In code, I have one Driver and service class following Single Responsibility pri
 Driver class is responsible for only controlling iterations(1000) and printing results.
 Service class is handling the logic internally by generating random door number from {1,2,3}.
 
-
-
+Language edition and editor details in common readme file. Please check there.
+Compilation : javac GameShowDriver.java
+Run : java GameShowDriver
 
 
 
