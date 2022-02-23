@@ -1,0 +1,11 @@
+
+Used Kahn's Algorithm for detecting if there exists a circle.
+
+For every iteration:
+1. We are finding all courses which do not have any prior dependency.
+2. Keep popping off the elements one by one.
+3. After complete iteration check if completed course count is equal to given count or not.
+
+
+
+
