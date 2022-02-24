@@ -14,6 +14,9 @@ public class CircusService {
         side1 = calculateSide(x1, y1, x2, y2);
         side2 = calculateSide(x1, y1, x3, y3);
         side3 = calculateSide(x3, y3, x2, y2);
+        if(side1 == 0 || side2 == 0 || side3 == 0){
+            return 0L;
+        }
         radius = calculateRadius(side1, side2, side3);
 
         angle1 = calculateAngle(side2, side3, side1);
