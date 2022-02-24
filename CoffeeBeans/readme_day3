@@ -1,0 +1,11 @@
+This is the question that forced me to open up RD Sharma book and google some formulaes. This is heavy maths question about polygon, side and angles.
+
+Regular polygon we are considering sideCount > 3 with 3 co-ordinates given.
+
+1. First task is to compute length of sides of polygon from the given coordinates.
+2. Calculate circumradius of triangle formed from co-ordinates.
+3. Calculate angles between the sides.
+4. Calculate count of sides present in polygon
+5. Calculate min area possible in polygon.
+
+Maintained two classes for loose coupling and better abstraction.
